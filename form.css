@@ -1,0 +1,42 @@
+
+.container{
+margin: auto;
+padding: 10%;
+border-radius: 5px;
+border: 5px solid green;
+background-color: rgb(244, 233, 211);
+}
+form{
+    display: auto;
+    padding: 2%;
+}
+input{
+    margin-bottom: 30px;
+    padding: 1px;
+    font-size: 20px;
+    border: 1px solid black;
+}
+select{
+     margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid black;
+}
+.input :focus{
+    background-color: darkblue;
+    
+}
+button{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: 5px;
+    cursor: progress;
+    font-family: verdana;
+    font-size: 24px;
+
+}
+.button:hover{
+    background-color: darkblue;
+transform: scale(1.05);
+}

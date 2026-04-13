@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IBARURA RY'ABAKRISTO</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="container">
+        <form method="post"  action="save.php">
+            <h1>IBARURA RY'ABAKRISTO</h1>
+
+            <input type="text" name="names" placeholder="Names" required>
+            <input type="number" name="telephone" placeholder="Telephone">
+            <input type="email" name="email" placeholder="Email">
+            <input type="text" name="Irangamuntu" placeholder="Irangamuntu" required>
+            <input type="date" name="date-of-birth" placeholder="Date of Birth" required>
+
+            <select name="gender" id="gen" required>
+                <option value="gender">--Select Gender--</option>
+                <!--option value="male">Gabo</option>
+                <option value="female">Gore</option-->
+            </select>
+
+            <select name="status" id="st" required>
+                <option value="statua">--Select Status--</option>
+                <!--option value="single">Single</option>
+                <option value="married">Married</option-->
+            </select>
+
+            <select name="baptism_status" id="bat" required>
+                <option value="">--Select Baptism Status--</option>
+                <!--option value="baptized">Baptized</option>
+                <option value="not_baptized">Not Baptized</option>
+                <option value="confirmed">Confirmed</option>
+                <option value="not_confirmed">Not Confirmed</option-->
+            </select>
+
+            <select name="presbytery" id="pres" required>
+                <option value="presbytery">--Select Presbytery--</option>
+                <!--option value="gisenyi">Gisenyi</option>
+                <option value="kigali">Kigali</option-->
+            </select>
+
+            <input type="text" name="parish" placeholder="Parish" required>
+            <input type="text" name="chapel" placeholder="Chapel" required>
+            <input type="text" name="grassroot" placeholder="Grassroot" required>
+            <input type="text" name="nationality" placeholder="Nationality" required>
+            <input type="text" name="province" placeholder="Province" required>
+            <input type="text" name="district" placeholder="District" required>
+            <input type="text" name="sector" placeholder="Sector" required>
+            <input type="text" name="cell" placeholder="Cell" required>
+            <input type="text" name="village" placeholder="Village" required>
+
+            <button type="submit">Submit</button>
+            
+        </form>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
